@@ -13,4 +13,4 @@ jobs:
   package:
     steps:
       - run: echo "Packaging artifact..."
-      - run: tar -czf dist/app.tar.gz src/
+      # - run: tar -czf dist/app.tar.gz src/
